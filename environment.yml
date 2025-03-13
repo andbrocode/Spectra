@@ -1,0 +1,19 @@
+name: spectra-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.10
+  - numpy
+  - matplotlib
+  - obspy
+  - pyyaml
+  - jupyter
+  - ipykernel
+  - gc
+  - pip
+  pip:
+    - argparse
+
+variables:
+  PYTHONPATH: . 
